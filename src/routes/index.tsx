@@ -1,21 +1,18 @@
 import { useCallback, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Overlay } from "@/components/overlay";
-import { WaterCanvas } from "@/components/water-canvas";
-import type { WorldHandle } from "@/lib/water/types";
+import { RaidCanvas } from "@/components/raid-canvas";
+import { RaidHud } from "@/lib/raid/hud";
+import type { NeonRaid } from "@/lib/raid/game";
 
 export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
-  const [world, setWorld] = useState<WorldHandle | null>(null);
-  const onReady = useCallback((handle: WorldHandle) => {
-    setWorld(handle);
-  }, []);
-
+  const [game, setGame] = useState<NeonRaid | null>(null);
+  const onReady = useCallback((g: NeonRaid) => setGame(g), []);
   return (
     <main className="relative h-dvh w-full overflow-hidden bg-bg text-fg">
-      <WaterCanvas onReady={onReady} />
-      <Overlay world={world} />
+      <RaidCanvas onReady={onReady} />
+      <RaidHud game={game} />
     </main>
   );
 }

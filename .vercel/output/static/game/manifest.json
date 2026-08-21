@@ -1,0 +1,132 @@
+{
+  "hero-idle": {
+    "src": "/game/sheets/hero-idle.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "hero-run": {
+    "src": "/game/sheets/hero-run.png",
+    "rows": 2,
+    "cols": 3,
+    "w": 1408,
+    "h": 1408
+  },
+  "hero-jump": {
+    "src": "/game/sheets/hero-jump.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "hero-shoot": {
+    "src": "/game/sheets/hero-shoot.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "hero-hurt": {
+    "src": "/game/sheets/hero-hurt.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "drone": {
+    "src": "/game/sheets/drone.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "enforcer": {
+    "src": "/game/sheets/enforcer.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "flyer": {
+    "src": "/game/sheets/flyer.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "bullet": {
+    "src": "/game/sheets/bullet.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "impact": {
+    "src": "/game/sheets/impact.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "muzzle": {
+    "src": "/game/sheets/muzzle.png",
+    "rows": 2,
+    "cols": 2,
+    "w": 1408,
+    "h": 1408
+  },
+  "platforms": {
+    "src": "/game/sheets/platforms.png",
+    "rows": 1,
+    "cols": 4,
+    "w": 1792,
+    "h": 1008
+  },
+  "floors": {
+    "src": "/game/sheets/floors.png",
+    "rows": 1,
+    "cols": 4,
+    "w": 1792,
+    "h": 1008
+  },
+  "props": {
+    "src": "/game/sheets/props.png",
+    "rows": 3,
+    "cols": 3,
+    "w": 1408,
+    "h": 1408
+  },
+  "tunnel": {
+    "src": "/game/sheets/tunnel.png",
+    "rows": 1,
+    "cols": 1,
+    "w": 1792,
+    "h": 1008
+  },
+  "map-sky": {
+    "src": "/game/map/sky.jpg",
+    "w": 1536,
+    "h": 864
+  },
+  "map-far": {
+    "src": "/game/map/far.jpg",
+    "w": 1536,
+    "h": 864
+  },
+  "map-mid": {
+    "src": "/game/map/mid.jpg",
+    "w": 1536,
+    "h": 864
+  },
+  "map-near": {
+    "src": "/game/map/near.jpg",
+    "w": 1536,
+    "h": 864
+  },
+  "map-title": {
+    "src": "/game/map/title.jpg",
+    "w": 1536,
+    "h": 864
+  }
+}

@@ -13,12 +13,10 @@ function Login() {
           className="mb-8 inline-flex items-center gap-2 text-sm text-muted transition-opacity duration-(--motion-quick) hover:opacity-80"
         >
           <ArrowLeft className="size-4" strokeWidth={1.75} />
-          Back to the lagoon
+          Back to the raid
         </Link>
-        <h1 className="font-display text-3xl font-medium tracking-display">Sign in</h1>
-        <p className="mt-2 text-sm leading-relaxed text-muted">
-          Keep a place on the water. Sign in with Google or X.
-        </p>
+        <h1 className="font-display text-3xl font-semibold tracking-display">Sign in</h1>
+        <p className="mt-2 text-sm leading-relaxed text-muted">Keep a name on the grid. Google or X.</p>
         <div className="mt-8 space-y-3">
           {authEnabled ? (
             GROK_PROVIDERS.map((p) => (

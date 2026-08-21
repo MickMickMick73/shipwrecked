@@ -1,0 +1,22 @@
+{
+  "name": "neon-raid",
+  "map_mode": "side_scroll_mode",
+  "stage_canvas": [1536, 864],
+  "parallax": [
+    { "id": "sky", "src": "/game/map/sky.jpg", "scroll": 0.05 },
+    { "id": "far", "src": "/game/map/far.jpg", "scroll": 0.18 },
+    { "id": "mid", "src": "/game/map/mid.jpg", "scroll": 0.38 },
+    { "id": "near", "src": "/game/map/near.jpg", "scroll": 0.62 }
+  ],
+  "tiles": {
+    "platforms": ["/game/tiles/plat-0.png", "/game/tiles/plat-1.png", "/game/tiles/plat-2.png", "/game/tiles/plat-3.png"],
+    "floors": ["/game/tiles/floor-0.png", "/game/tiles/floor-1.png", "/game/tiles/floor-2.png", "/game/tiles/floor-3.png"],
+    "props": 9,
+    "tunnel": "/game/tiles/tunnel-0.png"
+  },
+  "generation": {
+    "chunkWidth": 1180,
+    "kinds": ["street", "rooftop", "tunnel", "overpass", "factory"],
+    "seeded": "mulberry32"
+  }
+}
